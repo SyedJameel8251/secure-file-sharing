@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure File Sharing System</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking to CSS file -->
+</head>
+<body>
+    <div class="card">
+        <h1>Secure File Sharing System</h1>
+
+        <!-- Upload File Section -->
+        <h2>Upload File</h2>
+        <input type="file" id="fileInput" />
+        <input type="password" id="filePassword" placeholder="Enter Password" />
+        <button id="encryptButton">Encrypt and Share</button>
+        <br><br>
+        <button id="downloadEncryptedButton" style="display:none;">Download Encrypted File</button>
+
+        <!-- Link Section -->
+        <h2>Generated Link</h2>
+        <textarea id="linkOutput" readonly></textarea>
+
+        <!-- Decrypt Section -->
+        <a href="decrypt.html" class="decrypt-link">Decrypt File</a>
+    </div>
+
+    <!-- Move the script tag to the bottom, after the DOM content -->
+    <script src="js/encryption.js"></script> <!-- Linking to JS file -->
+</body>
+</html>
