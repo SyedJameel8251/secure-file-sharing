@@ -1,5 +1,3 @@
-# secure-file-sharing
-
 # Secure File Sharing System
 
 This project allows users to securely upload, encrypt, and share files. It provides functionality to:
