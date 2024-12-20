@@ -1,4 +1,4 @@
-# fILE ENCRYPTION AND DECRYPTION
+# FILE ENCRYPTION AND DECRYPTION
 
 This project allows users to securely upload, encrypt, and share files. It provides functionality to:
 - Upload a file and encrypt it using a password.
